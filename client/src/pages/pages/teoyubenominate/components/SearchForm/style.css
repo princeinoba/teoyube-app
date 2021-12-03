@@ -1,0 +1,4 @@
+#movie-search:focus {
+  border-color: gray;
+  box-shadow: 0 0 0 0.2rem rgba(120, 19, 35, 0.25);
+}

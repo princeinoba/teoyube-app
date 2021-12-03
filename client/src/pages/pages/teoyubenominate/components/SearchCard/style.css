@@ -1,0 +1,11 @@
+.card-image {
+  min-height: 100px;
+  width: 30%;
+  object-fit: cover;
+}
+
+.card .card-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}

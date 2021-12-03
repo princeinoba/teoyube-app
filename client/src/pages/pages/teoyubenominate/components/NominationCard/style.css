@@ -1,0 +1,20 @@
+.card-image.nomination-image {
+  width: 20%;
+  min-height: 0;
+}
+
+.card.nomination-card {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.nomination-card.draggable {
+  cursor: move;
+}
+
+button.remove-button {
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.grip {
+  color: #37323e;
+}

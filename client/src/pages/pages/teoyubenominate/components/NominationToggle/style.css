@@ -1,0 +1,26 @@
+#pending-count {
+  color: #37323e;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  background-color: white;
+  border: 1px solid #781323;
+  transition: all 1s;
+}
+
+#pending-count.full {
+  background-color: #d33f49;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 992px) {
+  #pending-title,
+  #send-nominations {
+    border-radius: 0;
+  }
+}

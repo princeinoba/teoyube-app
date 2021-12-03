@@ -1,0 +1,18 @@
+#main-nav {
+  background-color: white;
+}
+
+#main-nav .nav-link {
+  color: #953737;
+}
+
+#main-nav .nav-link:hover,
+#main-nav .nav-link:focus,
+#main-nav .nav-link:active {
+  color: #222336;
+}
+
+#nav-brand {
+  color: white;
+  background-color: #953737;
+}
