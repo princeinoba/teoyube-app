@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === 'production') {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb+srv://PrinceInoba:Teoyube1984@cluster0.zoy1j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+  process.env.MONGODB_URI || 'mongodb+srv://PrinceInoba:Teoyube1984@cluster0.zoy1j.mongodb.net/teoyubePromises.aboutUs?retryWrites=true&w=majority',
   {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true}
 )
 
