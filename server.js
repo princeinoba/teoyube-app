@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === 'production') {
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost:27017/reactrecipes',
+  process.env.MONGODB_URI || 'mongodb+srv://PrinceInoba:Teoyube1984@teoyube-app.zfam2.mongodb.net/reactrecipes?retryWrites=true&w=majority',
   {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true}
 )
 
