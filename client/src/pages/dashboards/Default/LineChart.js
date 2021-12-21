@@ -120,7 +120,6 @@ const LineChart = ({ theme }) => {
         </CardTitle>
         <Wrapper>
           <Gallery />
-          <Gallery />
         </Wrapper>
       </CardHeader>
       {/* <CardBody>
