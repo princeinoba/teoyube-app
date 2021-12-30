@@ -9,7 +9,7 @@ function Card() {
   if (!user) return <div>No users found.</div>
 
   return (
-    <div className="card" style={{width: '25rem'}}>
+    <div className="flex-fill w-100">
       <img className="card-img-top" src={user.image} alt="" />
       <div className="card-body">
         {/* <h5 className="card-title">{user.login}</h5> */}
