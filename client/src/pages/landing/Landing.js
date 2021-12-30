@@ -22,7 +22,7 @@ import {
 } from "reactstrap";
 
 import {
-  Box,
+  Airplay,
   Chrome,
   Code,
   DownloadCloud,
@@ -57,7 +57,7 @@ const Navigation = () => (
   <Navbar dark expand="md" className="navbar-landing">
     <Container>
       <NavbarBrand href="/">
-        <Box title="Teoyube" />
+        <Airplay title="Teoyube" />
         Teoyube
       </NavbarBrand>
       <Nav className="ml-auto" navbar>
