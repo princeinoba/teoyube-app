@@ -5,7 +5,7 @@ import { NavLink, withRouter } from "react-router-dom";
 import { Badge, Collapse } from "reactstrap";
 import PerfectScrollbar from "react-perfect-scrollbar";
 
-import { Box } from "react-feather";
+import { Airplay } from "react-feather";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
@@ -120,7 +120,7 @@ const Sidebar = ({ location, sidebar, layout }) => {
       <div className="sidebar-content">
         <PerfectScrollbar>
           <a className="sidebar-brand" href="/">
-            <Box className="align-middle text-primary" size={24} />{" "}
+            <Airplay className="align-middle text-primary" size={24} />{" "}
             <span className="align-middle">Teoyube</span>
           </a>
 
