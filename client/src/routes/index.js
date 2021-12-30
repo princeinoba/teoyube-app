@@ -38,7 +38,7 @@ import ThemeModern from "../pages/layouts/ThemeModern";
 import TeoyubeBlog from "../pages/misc/TeoyubeBlog";
 
 // UI Elements
-import Alerts from "../pages/ui-elements/Alerts";
+// import Alerts from "../pages/ui-elements/Alerts";
 // import Buttons from "../pages/ui-elements/Buttons";
 // import Cards from "../pages/ui-elements/Cards";
 // import Carousel from "../pages/ui-elements/Carousel";
@@ -50,7 +50,7 @@ import EmbedVideo from "../pages/ui-elements/EmbedVideo";
 // import Typography from "../pages/ui-elements/Typography";
 
 // Notifications
-import Notifications from "../pages/notifications/Notifications";
+import Notifications from "../pages/ui-elements/Alerts";
 
 // Pages
 import Profile from "../pages/pages/Profile";
@@ -64,12 +64,12 @@ import Chat from "../pages/pages/Chat";
 
 // Documentation
 import Introduction from "../pages/docs/Introduction";
-import GettingStarted from "../pages/docs/GettingStarted";
-import EnvironmentVariables from "../pages/docs/EnvironmentVariables";
-import Deployment from "../pages/docs/Deployment";
-import StateManagement from "../pages/docs/StateManagement";
-import Plugins from "../pages/docs/Plugins";
-import Changelog from "../pages/docs/Changelog";
+// import GettingStarted from "../pages/docs/GettingStarted";
+// import EnvironmentVariables from "../pages/docs/EnvironmentVariables";
+// import Deployment from "../pages/docs/Deployment";
+// import StateManagement from "../pages/docs/StateManagement";
+// import Plugins from "../pages/docs/Plugins";
+// import Changelog from "../pages/docs/Changelog";
 
 // Dashboards
 const Default = async(() => import("../pages/dashboards/Default"));
@@ -79,8 +79,8 @@ const Justus = async(() => import("../pages/dashboards/Justus"));
 const AboutUs = async(() => import("../pages/dashboards/AboutUs"));
 
 // Forms
-const Layouts = async(() => import("../pages/forms/Layouts"));
-const Nominations = async(() => import("../pages/forms/Nominations"));
+// const Layouts = async(() => import("../pages/forms/Layouts"));
+// const Nominations = async(() => import("../pages/forms/Nominations"));
 const AdvancedInputs = async(() => import("../pages/forms/AdvancedInputs"));
 const InputGroups = async(() => import("../pages/forms/InputGroups"));
 const Editors = async(() => import("../pages/forms/Editors"));
@@ -88,21 +88,21 @@ const Validation = async(() => import("../pages/forms/Validation"));
 const Wizard = async(() => import("../pages/forms/Wizard"));
 
 // Tables
-const BootstrapTables = async(() => import("../pages/tables/Bootstrap"));
+const BootstrapTables = async(() => import("../pages/tables/ExpandableRows"));
 // const PaginationTables = async(() => import("../pages/tables/Pagination"));
 const RowSelectionTables = async(() => import("../pages/tables/RowSelection"));
 const ExportCsvTables = async(() => import("../pages/tables/ExportCsv"));
-const ExpandableRowsTables = async(() =>
-  import("../pages/tables/ExpandableRows")
-);
+// const ExpandableRowsTables = async(() =>
+//   import("../pages/tables/ExpandableRows")
+// );
 
 // Charts
 const Chartjs = async(() => import("../pages/charts/Chartjs"));
 const ApexCharts = async(() => import("../pages/charts/ApexCharts"));
 
 // Icons
-const FontAwesome = async(() => import("../pages/icons/FontAwesome"));
-const Feather = async(() => import("../pages/icons/Feather"));
+// const FontAwesome = async(() => import("../pages/icons/FontAwesome"));
+// const Feather = async(() => import("../pages/icons/Feather"));
 
 // Calendar
 const Calendar = async(() => import("../pages/calendar/Calendar"));
@@ -300,36 +300,36 @@ const documentationRoutes = {
       name: "Introduction",
       component: Introduction
     },
-    {
-      path: "/docs/getting-started",
-      name: "Getting Started",
-      component: GettingStarted
-    },
-    {
-      path: "/docs/environment-variables",
-      name: "Environment Variables",
-      component: EnvironmentVariables
-    },
-    {
-      path: "/docs/deployment",
-      name: "Deployment",
-      component: Deployment
-    },
-    {
-      path: "/docs/state-management",
-      name: "State Management",
-      component: StateManagement
-    },
-    {
-      path: "/docs/plugins",
-      name: "Plugins",
-      component: Plugins
-    },
-    {
-      path: "/docs/changelog",
-      name: "Changelog",
-      component: Changelog
-    }
+    // {
+    //   path: "/docs/getting-started",
+    //   name: "Getting Started",
+    //   component: GettingStarted
+    // },
+    // {
+    //   path: "/docs/environment-variables",
+    //   name: "Environment Variables",
+    //   component: EnvironmentVariables
+    // },
+    // {
+    //   path: "/docs/deployment",
+    //   name: "Deployment",
+    //   component: Deployment
+    // },
+    // {
+    //   path: "/docs/state-management",
+    //   name: "State Management",
+    //   component: StateManagement
+    // },
+    // {
+    //   path: "/docs/plugins",
+    //   name: "Plugins",
+    //   component: Plugins
+    // },
+    // {
+    //   path: "/docs/changelog",
+    //   name: "Changelog",
+    //   component: Changelog
+    // }
   ]
 };
 
@@ -339,11 +339,11 @@ const uiRoutes = {
   header: "Tools & Components",
   icon: GridIcon,
   children: [
-    {
-      path: "/ui/alerts",
-      name: "Alerts",
-      component: Alerts
-    },
+    // {
+    //   path: "/ui/alerts",
+    //   name: "Alerts",
+    //   component: Alerts
+    // },
     // {
     //   path: "/ui/buttons",
     //   name: "Buttons",
@@ -394,41 +394,41 @@ const uiRoutes = {
   ]
 };
 
-const iconRoutes = {
-  path: "/icons",
-  name: "Icons",
-  icon: HeartIcon,
-  badgeColor: "info",
-  badgeText: "1500+",
-  children: [
-    {
-      path: "/icons/feather",
-      name: "Feather",
-      component: Feather
-    },
-    {
-      path: "/icons/font-awesome",
-      name: "Font Awesome",
-      component: FontAwesome
-    }
-  ]
-};
+// const iconRoutes = {
+//   path: "/icons",
+//   name: "Icons",
+//   icon: HeartIcon,
+//   badgeColor: "info",
+//   badgeText: "1500+",
+//   children: [
+//     {
+//       path: "/icons/feather",
+//       name: "Feather",
+//       component: Feather
+//     },
+//     {
+//       path: "/icons/font-awesome",
+//       name: "Font Awesome",
+//       component: FontAwesome
+//     }
+//   ]
+// };
 
 const formRoutes = {
   path: "/forms",
   name: "Forms",
   icon: CheckSquareIcon,
   children: [
-    {
-      path: "/forms/layouts",
-      name: "Layouts",
-      component: Layouts
-    },
-    {
-      path: "/forms/Nominations",
-      name: "Nominations",
-      component: Nominations
-    },
+    // {
+    //   path: "/forms/layouts",
+    //   name: "Layouts",
+    //   component: Layouts
+    // },
+    // {
+    //   path: "/forms/Nominations",
+    //   name: "Nominations",
+    //   component: Nominations
+    // },
     // {
     //   path: "/forms/input-groups",
     //   name: "Input Groups",
@@ -489,11 +489,11 @@ const advancedTablesRoutes = {
     //   name: "Row Selection",
     //   component: RowSelectionTables
     // },
-    {
-      path: "/advanced-tables/expandable-rows",
-      name: "Expandable Rows",
-      component: ExpandableRowsTables
-    },
+    // {
+    //   path: "/advanced-tables/expandable-rows",
+    //   name: "Expandable Rows",
+    //   component: ExpandableRowsTables
+    // },
     // {
     //   path: "/advanced-tables/export-csv",
     //   name: "Export CSV",
@@ -578,7 +578,7 @@ export const dashboard = [
   layoutRoutes,
   documentationRoutes,
   uiRoutes,
-  iconRoutes,
+  // iconRoutes,
   formRoutes,
   tableRoutes,
   formPluginsRoutes,
@@ -604,11 +604,11 @@ export default [
   layoutRoutes,
   documentationRoutes,
   uiRoutes,
-  iconRoutes,
-  formRoutes,
+  // iconRoutes,
+  // formRoutes,
   tableRoutes,
   formPluginsRoutes,
-  advancedTablesRoutes,
+  // advancedTablesRoutes,
   chartRoutes,
   notificationsRoutes,
   mapRoutes,
