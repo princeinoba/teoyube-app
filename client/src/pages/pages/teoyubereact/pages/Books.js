@@ -103,7 +103,7 @@ function Books() {
                 <></>
               )}
             </Row>
-            {books.length ? (
+            {books.getLength ? (
               <List>
                 {books.map(book => (
                   <ListItem key={book._id}>
