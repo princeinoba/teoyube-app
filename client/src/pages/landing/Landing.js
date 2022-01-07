@@ -41,9 +41,14 @@ import screenshotDashboardSocial from "../../assets/img/screenshots/dashboard-so
 import screenshotDashboardCrypto from "../../assets/img/screenshots/dashboard-crypto.jpg";
 import screenshotPageProjects from "../../assets/img/screenshots/pages-projects-list.jpg";
 
-import screenshotThemeCorporate from "../../assets/img/screenshots/theme-corporate.jpg";
-import screenshotThemeModern from "../../assets/img/screenshots/theme-modern.jpg";
-import screenshotThemeClassic from "../../assets/img/screenshots/theme-classic.jpg";
+import screenshotUnsplash18 from "../../assets/img/screenshots/unsplash-18.jpg";
+import screenshotNominate from "../../assets/img/screenshots/screenshot-nominate.jpg";
+import screenshotSearch from "../../assets/img/screenshots/screenshot-search.jpg";
+import screenshotDefault from "../../assets/img/screenshots/screenshot-default.jpg";
+
+// import screenshotThemeCorporate from "../../assets/img/screenshots/theme-corporate.jpg";
+// import screenshotThemeModern from "../../assets/img/screenshots/theme-modern.jpg";
+// import screenshotThemeClassic from "../../assets/img/screenshots/theme-classic.jpg";
 
 import brandBootstrap from "../../assets/img/brands/bootstrap.svg";
 import brandBootstrapB from "../../assets/img/brands/b.svg";
@@ -168,7 +173,7 @@ const Intro = () => {
       <Row>
         <Col md="8" className="mx-auto text-center">
           <div className="mt-4 landing-intro-img">
-						<img src={screenshotThemeCorporate} className="img-fluid rounded-lg" alt="Corporate Bootstrap 4 Dashboard Theme" />
+						<img src={screenshotUnsplash18} className="img-fluid rounded-lg" alt="Corporate Bootstrap 4 Dashboard Theme" />
 					</div>
         </Col>
       </Row>
@@ -183,7 +188,7 @@ const Styles = () => (
     <Container className="position-relative z-3">
       <Row>
         <Col md="12" className="mx-auto text-center">
-          <Row>
+          {/* <Row>
             <Col lg="10" xl="9" className="mx-auto">
               <div className="mb-4">
                 <h2 className="mb-3">Multiple Layouts</h2>
@@ -194,23 +199,23 @@ const Styles = () => (
                 </p>
               </div>
             </Col>
-          </Row>
+          </Row> */}
 
           <Row>
             <Col md="4" className="py-3">
               <Link
-                to="/layouts/theme-corporate"
+                to="/pages/Search"
                 target="_blank"
                 className="d-block mb-3 mx-1"
               >
                 <img
-                  src={screenshotThemeCorporate}
+                  src={screenshotSearch}
                   alt="Corporate Bootstrap 4 React Dashboard Theme"
                   className="img-fluid rounded-lg landing-img"
                 />
               </Link>
               <h4>
-                Godium{" "}
+                Search{" "}
                 <sup>
                   <Badge color="primary" tag="small">
                     New
@@ -226,7 +231,7 @@ const Styles = () => (
                 className="d-block mb-3 mx-1"
               >
                 <img
-                  src={screenshotThemeModern}
+                  src={screenshotDefault}
                   alt="Modern Bootstrap 4 React Dashboard Theme"
                   className="img-fluid rounded-lg landing-img"
                 />
@@ -243,17 +248,17 @@ const Styles = () => (
 
             <Col md="4" className="py-3">
               <Link
-                to="/layouts/theme-classic"
+                to="/pages/Nominate"
                 target="_blank"
                 className="d-block mb-3 mx-1"
               >
                 <img
-                  src={screenshotThemeClassic}
+                  src={screenshotNominate}
                   alt="Classic Bootstrap 4 React Dashboard Theme"
                   className="img-fluid rounded-lg landing-img"
                 />
               </Link>
-              <h4>Lordium</h4>
+              <h4>Nominate</h4>
             </Col>
           </Row>
         </Col>
@@ -262,130 +267,130 @@ const Styles = () => (
   </section>
 );
 
-const Dashboards = () => (
-  <section className="py-6 bg-white">
-    <Container>
-      <Row>
-        <Col md="12" className="mx-auto text-center">
-          <Row>
-            <Col lg="10" xl="9" className="mx-auto">
-              <div className="mb-4">
-                <h2 className="mb-3">Multiple Dashboards</h2>
-                <p className="text-muted font-size-lg">
-                  5 Dashboards and 40+ Pages featuring various components,
-                  giving you the freedom of choosing and combining. All
-                  components can take variation in color and styling, that can
-                  easily be modified using Sass.
-                </p>
-              </div>
-            </Col>
-          </Row>
+// const Dashboards = () => (
+//   <section className="py-6 bg-white">
+//     <Container>
+//       <Row>
+//         <Col md="12" className="mx-auto text-center">
+//           <Row>
+//             <Col lg="10" xl="9" className="mx-auto">
+//               <div className="mb-4">
+//                 <h2 className="mb-3">Multiple Dashboards</h2>
+//                 <p className="text-muted font-size-lg">
+//                   5 Dashboards and 40+ Pages featuring various components,
+//                   giving you the freedom of choosing and combining. All
+//                   components can take variation in color and styling, that can
+//                   easily be modified using Sass.
+//                 </p>
+//               </div>
+//             </Col>
+//           </Row>
 
-          <Row>
-            <Col md="6" lg="4" className="py-3">
-              <Link
-                to="/dashboard/default"
-                target="_blank"
-                className="d-block mb-3 mx-1"
-              >
-                <img
-                  src={screenshotDashboardDefault}
-                  alt="Bootstrap 4 Dashboard Theme"
-                  className="img-fluid rounded-lg landing-img"
-                />
-              </Link>
-              <h4>Default Dashboard</h4>
-            </Col>
-            <Col md="6" lg="4" className="py-3">
-              <Link
-                to="/dashboard/Godium"
-                target="_blank"
-                className="d-block mb-3 mx-1"
-              >
-                <img
-                  src={screenshotDashboardAnalytics}
-                  alt="Analytics Bootstrap 4 Dashboard Theme"
-                  className="img-fluid rounded-lg landing-img"
-                />
-              </Link>
-              <h4>Godium Dashboard</h4>
-            </Col>
-            <Col md="6" lg="4" className="py-3">
-              <Link
-                to="/dashboard/Lordium"
-                target="_blank"
-                className="d-block mb-3 mx-1"
-              >
-                <img
-                  src={screenshotDashboardEcommerce}
-                  alt="E-commerce Bootstrap 4 Dashboard Theme"
-                  className="img-fluid rounded-lg landing-img"
-                />
-              </Link>
-              <h4>Lordium Dashboard</h4>
-            </Col>
-            <Col md="6" lg="4" className="py-3">
-              <Link
-                to="/dashboard/AboutUs"
-                target="_blank"
-                className="d-block mb-3 mx-1"
-              >
-                <img
-                  src={screenshotDashboardSocial}
-                  alt="Social Bootstrap 4 Dashboard Theme"
-                  className="img-fluid rounded-lg landing-img"
-                />
-              </Link>
-              <h4>AboutUs Dashboard</h4>
-            </Col>
-            <Col md="6" lg="4" className="py-3">
-              <Link
-                to="/dashboard/Crypto"
-                target="_blank"
-                className="d-block mb-3 mx-1"
-              >
-                <img
-                  src={screenshotDashboardCrypto}
-                  alt="Crypto Bootstrap 4 Dashboard Theme"
-                  className="img-fluid rounded-lg landing-img"
-                />
-              </Link>
-              <h4>
-                Crypto Dashboard{" "}
-                <sup>
-                  <Badge color="primary" tag="small">
-                    New
-                  </Badge>
-                </sup>
-              </h4>
-            </Col>
-            <Col md="6" lg="4" className="py-3">
-              <Link
-                to="/pages/projects"
-                target="_blank"
-                className="d-block mb-3 mx-1"
-              >
-                <img
-                  src={screenshotPageProjects}
-                  alt="Projects Bootstrap 4 Dashboard Theme"
-                  className="img-fluid rounded-lg landing-img"
-                />
-              </Link>
-              <h4>
-                Projects Page{" "}
-                <sup>
-                  <Badge color="primary" tag="small">
-                    New
-                  </Badge>
-                </sup>
-              </h4>
-            </Col>
-          </Row>
-        </Col>
-      </Row>
-    </Container>
-  </section>
-);
+//           <Row>
+//             <Col md="6" lg="4" className="py-3">
+//               <Link
+//                 to="/dashboard/default"
+//                 target="_blank"
+//                 className="d-block mb-3 mx-1"
+//               >
+//                 <img
+//                   src={screenshotDashboardDefault}
+//                   alt="Bootstrap 4 Dashboard Theme"
+//                   className="img-fluid rounded-lg landing-img"
+//                 />
+//               </Link>
+//               <h4>Default Dashboard</h4>
+//             </Col>
+//             <Col md="6" lg="4" className="py-3">
+//               <Link
+//                 to="/dashboard/Godium"
+//                 target="_blank"
+//                 className="d-block mb-3 mx-1"
+//               >
+//                 <img
+//                   src={screenshotDashboardAnalytics}
+//                   alt="Analytics Bootstrap 4 Dashboard Theme"
+//                   className="img-fluid rounded-lg landing-img"
+//                 />
+//               </Link>
+//               <h4>Godium Dashboard</h4>
+//             </Col>
+//             <Col md="6" lg="4" className="py-3">
+//               <Link
+//                 to="/dashboard/Lordium"
+//                 target="_blank"
+//                 className="d-block mb-3 mx-1"
+//               >
+//                 <img
+//                   src={screenshotDashboardEcommerce}
+//                   alt="E-commerce Bootstrap 4 Dashboard Theme"
+//                   className="img-fluid rounded-lg landing-img"
+//                 />
+//               </Link>
+//               <h4>Lordium Dashboard</h4>
+//             </Col>
+//             <Col md="6" lg="4" className="py-3">
+//               <Link
+//                 to="/dashboard/AboutUs"
+//                 target="_blank"
+//                 className="d-block mb-3 mx-1"
+//               >
+//                 <img
+//                   src={screenshotDashboardSocial}
+//                   alt="Social Bootstrap 4 Dashboard Theme"
+//                   className="img-fluid rounded-lg landing-img"
+//                 />
+//               </Link>
+//               <h4>AboutUs Dashboard</h4>
+//             </Col>
+//             <Col md="6" lg="4" className="py-3">
+//               <Link
+//                 to="/dashboard/Crypto"
+//                 target="_blank"
+//                 className="d-block mb-3 mx-1"
+//               >
+//                 <img
+//                   src={screenshotDashboardCrypto}
+//                   alt="Crypto Bootstrap 4 Dashboard Theme"
+//                   className="img-fluid rounded-lg landing-img"
+//                 />
+//               </Link>
+//               <h4>
+//                 Crypto Dashboard{" "}
+//                 <sup>
+//                   <Badge color="primary" tag="small">
+//                     New
+//                   </Badge>
+//                 </sup>
+//               </h4>
+//             </Col>
+//             <Col md="6" lg="4" className="py-3">
+//               <Link
+//                 to="/pages/projects"
+//                 target="_blank"
+//                 className="d-block mb-3 mx-1"
+//               >
+//                 <img
+//                   src={screenshotPageProjects}
+//                   alt="Projects Bootstrap 4 Dashboard Theme"
+//                   className="img-fluid rounded-lg landing-img"
+//                 />
+//               </Link>
+//               <h4>
+//                 Projects Page{" "}
+//                 <sup>
+//                   <Badge color="primary" tag="small">
+//                     New
+//                   </Badge>
+//                 </sup>
+//               </h4>
+//             </Col>
+//           </Row>
+//         </Col>
+//       </Row>
+//     </Container>
+//   </section>
+// );
 
 const Features = () => (
   <section className="py-6">
@@ -783,7 +788,7 @@ const Footer = () => (
       <Row>
         <Col md="9" lg="8" xl="6" className="mx-auto">
           <h2 className="h1 text-white mb-3">
-            Join over 3,000 developers who are already working with our products
+            Join over 3,000 users who are already working with our products
           </h2>
           <Button
             color="light"
@@ -813,10 +818,10 @@ const Landing = () => {
       <Navigation />
       <Intro />
       <Styles />
-      <Dashboards />
-      <Features />
-      <Testimonials />
-      <Faq />
+      {/* <Dashboards /> */}
+      {/* <Features /> */}
+      {/* <Testimonials /> */}
+      {/* <Faq /> */}
       <Footer />
     </React.Fragment>
   )
