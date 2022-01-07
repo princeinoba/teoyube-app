@@ -1,0 +1,68 @@
+.card-img-wrap {
+  width: 20%;
+  background-color: #953737;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-info {
+  width: 80%;
+}
+
+button.save-button,
+button.delete-button,
+a.view-link {
+  border-radius: 0;
+}
+
+a.view-link {
+  border: 1px solid #222336;
+}
+
+a.view-link:hover,
+a.view-link:focus,
+a.view-link:active {
+  color: white;
+  background-color: #545785;
+  border: 1px solid #545785;
+}
+
+button.delete-button {
+  color: white;
+  background-color: #222336;
+  border: 1px solid #222336;
+}
+
+button.delete-button:hover,
+button.delete-button:focus,
+button.delete-button:active {
+  background-color: #545785;
+  border: 1px solid #545785;
+}
+
+button.save-button {
+  background-color: #953737;
+  border: 1px solid #953737;
+}
+
+button.save-button:hover,
+button.save-button:focus,
+button.save-button:active {
+  background-color: #521d1d;
+  border: 1px solid #521d1d;
+}
+
+a.view-link:focus,
+a.view-link:active,
+button.delete-button:focus,
+button.delete-button:active {
+  box-shadow: 0 0 0 0.2rem rgba(34, 35, 54, 0.25);
+}
+
+button.save-button:focus,
+button.save-button:active {
+  box-shadow: 0 0 0 0.2rem rgba(149, 55, 55, 0.25);
+}
