@@ -73,10 +73,10 @@ import Introduction from "../pages/docs/Introduction";
 
 // Dashboards
 const Default = async(() => import("../pages/dashboards/Default"));
-const Godium = async(() => import("../pages/dashboards/Godium"));
-const Lordium = async(() => import("../pages/dashboards/Lordium"));
-const Justus = async(() => import("../pages/dashboards/Justus"));
-const AboutUs = async(() => import("../pages/dashboards/AboutUs"));
+// const Godium = async(() => import("../pages/dashboards/Godium"));
+// const Lordium = async(() => import("../pages/dashboards/Lordium"));
+// const Justus = async(() => import("../pages/dashboards/Justus"));
+// const AboutUs = async(() => import("../pages/dashboards/AboutUs"));
 
 // Forms
 // const Layouts = async(() => import("../pages/forms/Layouts"));
@@ -84,7 +84,7 @@ const AboutUs = async(() => import("../pages/dashboards/AboutUs"));
 const AdvancedInputs = async(() => import("../pages/forms/AdvancedInputs"));
 const InputGroups = async(() => import("../pages/forms/InputGroups"));
 const Editors = async(() => import("../pages/forms/Editors"));
-const Validation = async(() => import("../pages/forms/Validation"));
+// const Validation = async(() => import("../pages/forms/Validation"));
 const Wizard = async(() => import("../pages/forms/Wizard"));
 
 // Tables
@@ -97,8 +97,8 @@ const ExportCsvTables = async(() => import("../pages/tables/ExportCsv"));
 // );
 
 // Charts
-const Chartjs = async(() => import("../pages/charts/Chartjs"));
-const ApexCharts = async(() => import("../pages/charts/ApexCharts"));
+// const Chartjs = async(() => import("../pages/charts/Chartjs"));
+// const ApexCharts = async(() => import("../pages/charts/ApexCharts"));
 
 // Icons
 // const FontAwesome = async(() => import("../pages/icons/FontAwesome"));
@@ -132,29 +132,29 @@ const dashboardRoutes = {
       path: "/dashboard/default",
       name: "Default",
       component: Default
-    },
-    {
-      path: "/dashboard/Godium",
-      name: "Godium",
-      component: Godium
-    },
-    {
-      path: "/dashboard/Lordium",
-      name: "Lordium",
-      component: Lordium
-    },
-    {
-      path: "/dashboard/AboutUs",
-      name: "AboutUs",
-      component: AboutUs
-    },
-    {
-      path: "/dashboard/justus",
-      name: "Justus",
-      component: Justus,
-      badgeColor: "primary",
-      badgeText: "New"
     }
+    // {
+    //   path: "/dashboard/Godium",
+    //   name: "Godium",
+    //   component: Godium
+    // },
+    // {
+    //   path: "/dashboard/Lordium",
+    //   name: "Lordium",
+    //   component: Lordium
+    // },
+    // {
+    //   path: "/dashboard/AboutUs",
+    //   name: "AboutUs",
+    //   component: AboutUs
+    // },
+    // {
+    //   path: "/dashboard/justus",
+    //   name: "Justus",
+    //   component: Justus,
+    //   badgeColor: "primary",
+    //   badgeText: "New"
+    // }
   ]
 };
 
@@ -461,11 +461,11 @@ const formPluginsRoutes = {
     //   name: "Editors",
     //   component: Editors
     // },
-    {
-      path: "/form-plugins/validation",
-      name: "Validation",
-      component: Validation
-    },
+    // {
+    //   path: "/form-plugins/validation",
+    //   name: "Validation",
+    //   component: Validation
+    // },
     {
       path: "/form-plugins/wizard",
       name: "Wizard",
@@ -509,18 +509,18 @@ const chartRoutes = {
   badgeColor: "primary",
   badgeText: "New",
   children: [
-    {
-      path: "/charts/chartjs",
-      name: "Chart.js",
-      component: Chartjs
-    },
-    {
-      path: "/charts/apexcharts",
-      name: "ApexCharts",
-      component: ApexCharts,
-      badgeColor: "primary",
-      badgeText: "New"
-    }
+    // {
+    //   path: "/charts/chartjs",
+    //   name: "Chart.js",
+    //   component: Chartjs
+    // },
+    // {
+    //   path: "/charts/apexcharts",
+    //   name: "ApexCharts",
+    //   component: ApexCharts,
+    //   badgeColor: "primary",
+    //   badgeText: "New"
+    // }
   ]
 };
 
@@ -609,7 +609,7 @@ export default [
   tableRoutes,
   formPluginsRoutes,
   // advancedTablesRoutes,
-  chartRoutes,
+  // chartRoutes,
   notificationsRoutes,
   mapRoutes,
   calendarRoutes
