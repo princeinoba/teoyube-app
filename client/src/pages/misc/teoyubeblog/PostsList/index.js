@@ -249,7 +249,7 @@ function PostsList() {
           Load more
         </Button>
       </CardBody>
-      {state.posts.length ? (
+      {state.posts.getLength ? (
         <List>
           {state.posts.map(post => (
             <ListItem key={post._id}>
