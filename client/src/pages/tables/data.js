@@ -1,11 +1,16 @@
+import React from "react";
+import { Video, Volume2, Film, } from "react-feather";
+
+import { Button } from "reactstrap";
+
 const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-18.jpg?raw=true',
     position: '-Ephesians 1:18-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'The eyes of your understanding being enlightened; ',
       'that ye may know what is the hope of his calling, ',
@@ -16,10 +21,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-7.jpg?raw=true',
     position: '-2Corinthians 6:1-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'We then, ',
       'as workers together with him, ',
@@ -30,10 +35,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-10.jpg?raw=true',
     position: '-2Corinthians 6:2-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       '(For he saith, ',
       'I have heard thee in a time accepted, ',
@@ -46,10 +51,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-27.jpg?raw=true',
     position: '-2Corinthians 6:3-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Giving no offense in any thing, ',
       'that the mininstry be not blamed: ',
@@ -59,10 +64,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-16.jpg?raw=true',
     position: '-2Corinthians 6:4-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'But in all things approving ourselves as the misnisters of God, ',
       'in much patience, ',
@@ -75,10 +80,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-36.jpg?raw=true',
     position: '-2Corinthians 6:5-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'In stripes, ', 
       'in imprisonments, ', 
@@ -92,10 +97,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-8.jpg?raw=true',
     position: '-2Corinthians 6:6-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'By pureness, ',
       'by knowledge, ',
@@ -109,10 +114,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-21.jpg?raw=true',
     position: '-2Corinthians 6:7-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'By the word of truth, ',
       'by the power of God, ',
@@ -123,10 +128,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-39.jpg?raw=true',
     position: '-2Corinthians 6:8-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'By honour and dishonour, ',
       'by evil report and good report: as deceivers, ',
@@ -137,10 +142,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-33.jpg?raw=true',
     position: '-2Corinthians 6:9-',
-    audio: 'Sound',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: 'Watch Video',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'As unknown, ',
       'and yet wellknown; ', 
@@ -155,10 +160,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-9.jpg?raw=true',
     position: '-2Corinthians 6:10-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'As sorrowful, ',
       'yet always rejoicing; as poor, ',
@@ -170,10 +175,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-51.jpg?raw=true',
     position: '-2Corinthians 6:11-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'O ye Prince, ',
       'our mouth is open unto you, ',
@@ -184,10 +189,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-52.jpg?raw=true',
     position: '-2Corinthians 6:12-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Ye are not straitened in us, ', 
       'but ye are straitened in your own bowels. ',
@@ -197,10 +202,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-55.jpg?raw=true',
     position: '-2Corinthians 6:13-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Now for a recompense in the same, ',
       '(I speak as unto my children,) ',
@@ -211,10 +216,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-37.jpg?raw=true',
     position: '-2Corinthians 6:14-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Be ye not unequally yoked together with believers: ',
       'for what fellowship hath righteousness with unrighteouness? ',
@@ -225,10 +230,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-50.jpg?raw=true',
     position: '-2Corinthians 6:15-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And what concord hath Christ with Belial? ',
       'or what part hath he that believeth with an infidel? ',
@@ -238,10 +243,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-15.jpg?raw=true',
     position: '-2Corinthians 6:16-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And what agreement hath the temple of God with idols? ',
       'for ye are the temple of the living God; ',
@@ -256,10 +261,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-11.jpg?raw=true',
     position: '-2Corinthians 6:17-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Wherefore come out from among them, ',
       'and be ye separate, ',
@@ -272,10 +277,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-14.jpg?raw=true',
     position: '-2Corinthians 6:18-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And will be a Father unto you, ', 
       'and ye shall be my sons and daughters, ', 
@@ -286,10 +291,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-13.jpg?raw=true',
     position: '-2Corinthians 7:1-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Having therefore these promises, ',
       'dearly beloved, ',
@@ -301,10 +306,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-6.jpg?raw=true',
     position: '-2Corinthians 7:2-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Receive us;',
       'we have wronged no man, ',
@@ -316,10 +321,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-5.jpg?raw=true',
     position: '-2Corinthians 7:3-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'I speak not this to condemn you: for I have said before, ',
       'that ye are in our heart to die and live with you. ',
@@ -329,10 +334,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-12.jpg?raw=true',
     position: '-2Corinthians 7:4-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Great is my boldness of speech toward you, ',
       'great is my glorying of you: I am filled with comfort, ',
@@ -343,10 +348,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-20.jpg?raw=true',
     position: '-2Corinthians 7:5-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For,',
       'when we were come into Macedonia, ',
@@ -360,10 +365,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-31.jpg?raw=true',
     position: '-2Corinthians 7:6-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Nevertheless God, ',
       'that comforteth those that are cast down, ',
@@ -374,10 +379,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-28.jpg?raw=true',
     position: '-2Corinthians 7:7-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And not by his coming only, ',
       'but by the consolation wherewith he was comforted in you, ',
@@ -391,10 +396,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-25.jpg?raw=true',
     position: '-2Corinthians 7:8-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For though I made you sorry with a letter, ', 
       'I do not repent, ', 
@@ -406,10 +411,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-38.jpg?raw=true',
     position: '-2Corinthians 7:9-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Now I rejoice, ',
       'not that ye were made sorry, ',
@@ -422,10 +427,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-26.jpg?raw=true',
     position: '-2Corinthians 7:10-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For godly sorrow worketh repentance to salvation not to be repented of: ',
       'but the sorrow of the world worketh death. ',
@@ -435,10 +440,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-44.jpg?raw=true',
     position: '-2Corinthians 7:11-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For behold this selfsame thing, ',
       'that ye sorrowed after a godly sort, ',
@@ -462,10 +467,10 @@ const tableData = [
   {
     thumbnail: '',
     position: '-2Corinthians 7:12-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Wherefore, ',
       'though I wrote unto you, ',
@@ -478,10 +483,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-42.jpg?raw=true',
     position: '-2Corinthians 7:13-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Therefore we were comforted in your comfort: ',
       'yea, ',
@@ -493,10 +498,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-47.jpg?raw=true',
     position: '-2Corinthians 7:14-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For if I have boasted any thing to him of you, ',
       'I am not ashamed; ',
@@ -510,10 +515,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-56.jpg?raw=true',
     position: '-2Corinthians 7:15-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And his inward affection is more abundant toward you ',
       'whilst he remembereth the obedience of you all, ',
@@ -524,10 +529,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-53.jpg?raw=true',
     position: '-2Corinthians 7:16-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'I rejoice therefore that I have confi-dence in you in all things. ',
     ],
@@ -536,10 +541,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-54.jpg?raw=true',
     position: '-Romans 5:1-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Therefore being justified by faith, ',
       'we have peace with God through our Lord Jesus Christ: ',
@@ -549,10 +554,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-46.jpg?raw=true',
     position: '-Romans 5:2-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'By whom also we have access by faith into this grace wherein we stand, ',
       'and rejoice in hope of the glory of God.  ',
@@ -562,10 +567,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-45.jpg?raw=true',
     position: '-Romans 5:3-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And not only so ',
       'but we glory in tribulations also; ',
@@ -576,10 +581,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-37.jpg?raw=true',
     position: '-Romans 5:4-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And patience, ',
       'experience; ',
@@ -591,10 +596,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-35.jpg?raw=true',
     position: '-Romans 5:5-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And hope maketh not ashamed; ',
       'because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.  ',
@@ -604,10 +609,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-28.jpg?raw=true',
     position: '-Romans 5:6-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For when we were yet without strength, ', 
       'in due time Christ died for the ungodly. ',
@@ -617,10 +622,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-30.jpg?raw=true',
     position: '-Romans 5:7-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href:  '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For scarcely for a righteous man will one die: ',
       'yet peradventure for a good man some would even dare to die. ',
@@ -630,10 +635,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-29.jpg?raw=true',
     position: '-Romans 5:8-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'But God commendeth his love toward us, ', 
       'in that, ', 
@@ -645,10 +650,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-23.jpg?raw=true',
     position: '-Romans 5:9-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Much more then, ',
       'being now justified by his blood, ',
@@ -659,10 +664,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-24.jpg?raw=true',
     position: '-Romans 5:10-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For if, ', 
       'when we were enemies, ', 
@@ -676,10 +681,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-19.jpg?raw=true',
     position: '-Romans 5:11-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And not only so, ', 
       'but we also joy in God through our Lord Jesus Christ, ', 
@@ -690,10 +695,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-40.jpg?raw=true',
     position: '-Romans 5:12-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Wherefore, ', 
       'as by one man sin entered into the world, ', 
@@ -706,10 +711,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-41.jpg?raw=true',
     position: '-Romans 5:13-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       '(For until the law sin was in the world: ', 
       'but sin is not imputed when there is no law   ',
@@ -719,10 +724,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-43.jpg?raw=true',
     position: '-Romans 5:14-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Nevertheless death reigned from Adams to Moses, ',
       'even over them that had not sinned after the similitude of Adams transgression, ',
@@ -733,10 +738,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-46.jpg?raw=true',
     position: '-Romans 5:15-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'But not as the offense, ',
       'so also is the free gift. ',
@@ -752,10 +757,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-56.jpg?raw=true',
     position: '-Romans 5:16-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And not as it was by one that sinned, ', 
       'so is the gift: ', 
@@ -767,10 +772,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-18.jpg?raw=true',
     position: '-Romans 5:17-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For if by one man offense death reigned by one; ',
       'much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, ',
@@ -781,10 +786,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-45.jpg?raw=true',
     position: '-Romans 5:18-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Therefore,',
       'as by the offense of one judgment came upon all men to condemnation; ',
@@ -795,10 +800,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-49.jpg?raw=true',
     position: '-Romans 5:19-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For as by one man disobedience many were made sinners, ',
       'so by the obedience of one shall many be made righteous. ',
@@ -808,10 +813,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-37.jpg?raw=true',
     position: '-Romans 5:20-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Moreover the law entered, ',
       'that the offense might abound. ',
@@ -823,10 +828,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-55.jpg?raw=true',
     position: '-Romans 5:21-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'That as sin hath reigned unto death, ',
       'even so might grace reign through righteousness unto eternal life by Jesus Christ our Lord. ',
@@ -836,10 +841,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-48.jpg?raw=true',
     position: '-Romans 6:1-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'What shall we say then? ',
       'Shall we continue in sin, ',
@@ -850,10 +855,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-14.jpg?raw=true',
     position: '-Romans 6:2-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'God forbid. ',
       'How shall we, ',
@@ -865,10 +870,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-20.jpg?raw=true',
     position: '-Romans 6:3',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Know ye not, ',
       'that so many of us as were baptized into Jesus Christ were baptized into his death?   ',
@@ -878,10 +883,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-10.jpg?raw=true',
     position: '-Romans 6:4-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Therefore we are buried with him by baptism into death: ',
       'that like as Christ was raised up from the dead by the glory of the Father, ',
@@ -892,10 +897,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-38.jpg?raw=true',
     position: '-Romans 6:5-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For if we have been planted together in the likeness of his death, ',
       'we shall be also in the likeness of his resurrection:    ',
@@ -905,10 +910,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-18.jpg?raw=true',
     position: '-Romans 6:6-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Knowing this,',
       'that our old man is crucified with him, ',
@@ -920,10 +925,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-7.jpg?raw=true',
     position: '-Romans 6:7-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For he that is dead is freed from sin,   ',
     ],
@@ -932,10 +937,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-9.jpg?raw=true',
     position: '-Romans 6:8-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Now if we be dead with Christ, ',
       'we believe that we shall also live with him:   ',
@@ -945,10 +950,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-21.jpg?raw=true',
     position: '-Romans 6:9-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Knowing that Christ being raised from the dead dieth no more, ',
       'death hath no more dominion over him.  ',
@@ -958,10 +963,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-28.jpg?raw=true',
     position: '-Romans 6:10-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For in that he died, ',
       'he died unto sin once: ',
@@ -973,10 +978,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-27.jpg?raw=true',
     position: '-Romans 6:11-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Likewise reckon ye also yourselves to be dead indeed unto sin,  ',
       'but alive unto God through Jesus Christ our Lord.    ',
@@ -986,10 +991,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-22.jpg?raw=true',
     position: '-Romans 6:12-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Let not sin therefore reign in your mortal body, ',
       'that ye should obey it in the lusts thereof    ',
@@ -999,10 +1004,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-23.jpg?raw=true',
     position: '-Romans 6:13-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Neither yield ye your members as instruments of unrighteousness unto sin: ',
       'but yield yourselves unto God, ',
@@ -1014,10 +1019,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-30.jpg?raw=true',
     position: '-Romans 6:14-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For sin shall not have dominion over you: ',
       'for ye are not under the law, ',
@@ -1028,10 +1033,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-35.jpg?raw=true',
     position: '-Romans 6:15-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'What then? ',
       'shall we sin, ',
@@ -1044,10 +1049,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-51.jpg?raw=true',
     position: '-Romans 6:16-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Know ye not, ',
       'that to whom ye yield yourselves servants to obey, ',
@@ -1060,10 +1065,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-48.jpg?raw=true',
     position: '-Romans 6:17-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'But God be thanked, ',
       'that ye were the servants of sin, ',
@@ -1074,10 +1079,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-46.jpg?raw=true',
     position: '-Romans 6:18-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Being then made free from sin, ',
       'ye became the servants of righteousness.  ',
@@ -1087,10 +1092,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-45.jpg?raw=true',
     position: '-Romans 6:19-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'I speak after the manner of men because of the infirmity of your flesh: ',
       'for as ye have yielded your members servants to uncleanness and to iniquity unto iniquity; ',
@@ -1101,10 +1106,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-44.jpg?raw=true',
     position: '-Romans 6:20',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For when ye were the servants of sin, ',
       'ye were free from righteousness.    ',
@@ -1114,10 +1119,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-43.jpg?raw=true',
     position: '-Romans 6:21-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'What fruit had ye then in those things whereof ye are now ashamed? ',
       'for the end of those things is death. ',
@@ -1127,10 +1132,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-33.jpg?raw=true',
     position: '-Romans 6:22-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'But now being made free from sin, ',
       'and become servants to God, ',
@@ -1142,10 +1147,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-16.jpg?raw=true',
     position: '-Romans 6:23-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href:  '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For the wages of sin is death; ',
       'but the gift of God is eternal life through Jesus Christ our Lord.   ',
@@ -1155,10 +1160,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-39.jpg?raw=true',
     position: '-2Peter 1:1-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Prince, ',
       'a servant and an apostle of Jesus Christ, ',
@@ -1169,10 +1174,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-32.jpg?raw=true',
     position: '-2Peter 1:2-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Grace and peace be multiplied unto you through the knowledge of God, ',
       'and of Jesus our Lord  ',
@@ -1182,10 +1187,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-42.jpg?raw=true',
     position: '-2Peter 1:3-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'According as his divine power hath given unto us all things that pertain unto life and godliness, ',
       'through the knowledge of him that hath called us to glory and virtue:   ',
@@ -1195,10 +1200,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-47.jpg?raw=true',
     position: '-2Peter 1:4-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Whereby are given unto us exceeding great and precious promises: ',
       'that by these ye might be partakers of the divine nature, ',
@@ -1209,10 +1214,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-26.jpg?raw=true',
     position: '-2Peter 1:5-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And beside this, ',
       'giving all diligence, ',
@@ -1225,10 +1230,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-13.jpg?raw=true',
     position: '-2Peter 1:6-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And to knowledge temperance; ',
       'and to temperance, ',
@@ -1241,10 +1246,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-36.jpg?raw=true',
     position: '-2Peter 1:7-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And to godliness, ',
       'brotherly kindness, ',
@@ -1256,10 +1261,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-54.jpg?raw=true',
     position: '-2Peter 1:8-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For if these things be in you, ',
       'and abound, ',
@@ -1270,10 +1275,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-38.jpg?raw=true',
     position: '-2Peter 1:9-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'But he that lacketh these things is blind, ',
       'and cannot see afar off, ',
@@ -1284,10 +1289,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-12.jpg?raw=true',
     position: '-2Peter 1:10-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Wherefore the rather, ',
       'brethren, ',
@@ -1300,10 +1305,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-37.jpg?raw=true',
     position: '-2Peter 1:11-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For so an entrance shall be ministered unto you abundantly into the everlasting kingdom of our Lord and Saviour Jesus Christ.   ',
     ],
@@ -1312,10 +1317,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-6.jpg?raw=true',
     position: '-2Peter 1:12-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Wherefore I will not be negligent to put you always in remembrance of these things, ',
       'though ye know them, ',
@@ -1326,10 +1331,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-25.jpg?raw=true',
     position: '-2Peter 1:13-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Yea, ',
       'I think it meet, ',
@@ -1341,10 +1346,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-55.jpg?raw=true',
     position: '-2Peter 1:14-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description:[
       'Knowing that shortly I must put off this my tabernacle, ',
       'even as our Lord Jesus Christ hath showed me.   ',
@@ -1354,10 +1359,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-34.jpg?raw=true',
     position: '-2Peter 1:15-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Moreover I will endeavor that ye may be able after my decease to have these things always in remembrance.  ',
     ],
@@ -1366,10 +1371,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-8.jpg?raw=true',
     position: '-2Peter 1:16-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For we have not followed cunningly devised fables, ',
       'when we made known unto you the power and coming of our Lord Jesus Christ, ',
@@ -1380,10 +1385,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-31.jpg?raw=true',
     position: '-2Peter 1:17-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For he received from God the Father honor and glory, ',
       'whenthere came such a voice to him from the excellent glory, ',
@@ -1395,10 +1400,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-24.jpg?raw=true',
     position: '-2Peter 1:18-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'And this voice which came from heaven we heard, ',
       'when we were with him in the holy mount.   ',
@@ -1408,10 +1413,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-28.jpg?raw=true',
     position: '-2Peter 1:19-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'We have also more sure word of prophecy; ',
       'whereunto ye do well that ye take heed, ',
@@ -1424,10 +1429,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-15.jpg?raw=true',
     position: '-2Peter 1:20-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'Knowing this first, ',
       'that no prophecy of the scripture is of any private interpretation.   ',
@@ -1438,10 +1443,10 @@ const tableData = [
   {
     thumbnail: 'https://github.com/princeinoba/teoyube-pics/blob/main/unsplash-10.jpg?raw=true',
     position: '-2Peter 1:21-',
-    audio: '',
+    audio: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Volume2 className="float-right" /></Button>,
     period: '2,300times',
-    status: 'Active',
-    href: '',
+    status: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Film className="float-right" /></Button>,
+    href: <Button rel="noreferrer noopener" target="_blank" href={'http://teoyube.com/Promises/IATDOBYMIAMENI,HESBESASGIANOAFIP.EPHPHATHA;BIHETCITNOTLO.TBUGODFOHUG/Video.aspx'} size="lg" color="" className="mr-2 px-3 d-none d-md-inline-block" ><Video className="float-right" /></Button>,
     description: [
       'For the prophecy came not in old time by the will of man: ',
       'but holy men of God spake as they were moved by the Holy Ghost.    ',
@@ -1478,7 +1483,7 @@ const tableColumns = [
   },
   {
     dataField: "status",
-    text: "Status",
+    text: "Airplay",
     sort: true
   }
 ];
