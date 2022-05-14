@@ -83,7 +83,7 @@ const Navigation = () => (
         </NavItem>
       </Nav>
       <Button
-        href="https://themes.getbootstrap.com/product/appstack-react-admin-dashboard-template/"
+        href=""
         target="_blank"
         rel="noopener noreferrer"
         color="primary"
@@ -793,7 +793,7 @@ const Footer = () => (
           <Button
             color="light"
             size="lg"
-            href="https://themes.getbootstrap.com/product/appstack-react-admin-dashboard-template/"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="mt-n1"
