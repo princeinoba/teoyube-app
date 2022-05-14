@@ -173,8 +173,8 @@ const Intro = () => {
       <Row>
         <Col md="8" className="mx-auto text-center">
           <div className="mt-4 landing-intro-img">
-						<img src={screenshotUnsplash18} className="img-fluid rounded-lg" alt="Corporate Bootstrap 4 Dashboard Theme" />
-					</div>
+	    <img src={screenshotUnsplash18} className="img-fluid rounded-lg" alt="Corporate Bootstrap 4 Dashboard Theme" />
+	  </div>
         </Col>
       </Row>
     </Container>
