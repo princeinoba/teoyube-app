@@ -121,7 +121,7 @@ const Intro = () => {
               View Demos
             </a>{" "}
             <a
-              href="https://themes.getbootstrap.com/product/appstack-react-admin-dashboard-template/"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-outline-light btn-lg"
